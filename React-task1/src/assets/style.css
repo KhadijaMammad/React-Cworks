@@ -1,0 +1,35 @@
+.container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    text-align: center;
+    padding: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.foodcard{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 250px;
+    padding: 23px;
+    text-align: center;
+}
+.card-image{
+    width: 210px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 1%;
+}
+.description{
+    font-style: italic;
+    color: grey;
+    text-align: center;
+}
+.card-price{
+    color: brown;
+    font-weight: 600;
+    margin-top: 10px;
+}
