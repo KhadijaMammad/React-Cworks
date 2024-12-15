@@ -18,8 +18,8 @@
     text-align: center;
 }
 .card-image{
-    width: 210px;
-    height: 200px;
+    width: 240px;
+    height: 150px;
     object-fit: cover;
     margin-top: 1%;
 }
