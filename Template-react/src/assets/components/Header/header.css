@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    outline: none !important;
+    list-style: none !important;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.navbar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+h2{
+    color: white;
+}
+nav ul{
+    display: flex;
+    gap: 1.5rem;
+}
+nav ul li a{
+    font-size: 20px;
+    color: grey;
+}
+nav ul li a:hover{
+    color: white;
+}
+header{
+    height: 60px;
+    background-color: #000;
+}

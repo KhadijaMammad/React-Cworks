@@ -1,0 +1,13 @@
+.border{
+    margin-top: 5%;
+    box-sizing: border-box;
+    border:none;
+    border-radius: 8px;
+    padding: 40px 15px;
+    background-color: grey;
+}
+.border p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
