@@ -2,13 +2,17 @@ import React from 'react'
 import "./header.css"
 
 export default function Header() {
+    const myStyle ={
+      color: "green",
+    } 
   return (
     <div>
       <header>
         <div className="container">
             <div className="navbar">
                 <nav>
-                    <h2>Start Bootstrap</h2>
+                    <h2 
+                    style = {myStyle}>Start Bootstrap</h2>
                     <ul>
                         <li>
                             <a href="#">Home</a>

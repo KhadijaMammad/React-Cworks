@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+table{
+    border: 2px solid red;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+}
+thead{
+    background: #000;
+    color: white;
+    font-size: 20px;
+
+}
+tbody{
+    background-color: #cdcaca;
+    color: black;
+    font-size: 18px;
+
+}
