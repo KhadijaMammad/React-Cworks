@@ -1,12 +1,13 @@
 import './App.css'
-import Main from './assets/components/Main/Main'
+import Input from './assets/components/State/Input'
 
 
 function App() {
   
   return (
     <>
-    <Main/>
+   <Input/>
+
     </>
   )
 }
