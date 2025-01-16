@@ -1,0 +1,60 @@
+.footer-first{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    padding: 65px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.about, .contact, .news{
+    line-height: 70px;
+}
+.tel{
+   margin-top: 10px;
+}
+.tel p{
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.arrow{
+    background-color: red;
+   width: 40px;
+   height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+.input{
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.test{
+    opacity: 50%;
+}
+.footer-finish{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    /* border: 1px solid black; */
+}
+.colorlib{
+    opacity: 70%;
+}
+.icon-contact{
+    display: flex;
+    gap: 2rem;
+}
+.icon-contact i{
+    padding: 13px;
+}
+.icon-contact i:hover{
+    background-color: red;
+    color: aliceblue;
+}

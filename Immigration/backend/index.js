@@ -1,7 +1,12 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const bodyParser=require("body-parser")
+const cors = require("cors")
 
 const data = express();
+data.use(bodyParser.json())
+data.use(cors())
+
 
 const CategorySchema = new mongoose.Schema({
   image: String,
@@ -53,6 +58,6 @@ mongoose
     console.log(err);
   });
 
-data.listen(3000, () => {
-  console.log("3000 portunda dinlenilir");
+data.listen(8080, () => {
+  console.log("8080 portunda dinlenilir");
 });

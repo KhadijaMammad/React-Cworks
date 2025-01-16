@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+.first{
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.phone-number{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.icon{
+    background-color: red;
+    padding: 30px;
+    color: white;
+}
+.number{
+    font-weight: bold;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 55px;
+}
+.link{
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    color: black;
+    font-size: 15px;
+   font-family: sans-serif;
+}
+.link:hover{
+    color: red;
+}

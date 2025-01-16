@@ -1,0 +1,9 @@
+.card-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-page{
+    margin-top: 3%;
+}
