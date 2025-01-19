@@ -29,3 +29,23 @@ li{
 li:hover{
     color: black;
 }
+.basket{
+    background-color: rgb(141, 141, 237);
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+}
+.text{
+    text-decoration: none;
+    color: black;
+}
+.fav{
+    background-color: rgb(236, 116, 79);
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+}
+.wish{
+    text-decoration: none;
+    color: black;
+}

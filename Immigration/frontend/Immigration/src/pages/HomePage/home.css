@@ -1,5 +1,5 @@
 .consultation{
-    height: 90vh;
+    height: 100vh;
     background-color: #F6214b;
     display: flex;
     justify-content: space-around;
@@ -9,6 +9,7 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    width: 45%;
 }
 .left{
     color: white;
@@ -19,8 +20,8 @@
     gap: 1.5rem;
 }
 .book{
-    width: 20%;
-    padding: 10px;
+    width: 30%;
+    padding: 10px 15px;
     color: black;
     font-weight: bold;
     border: 1px solid white;

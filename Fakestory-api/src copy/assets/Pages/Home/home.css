@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: goldenrod;
+}
+nav{
+    height: 75px;
+}
+nav .lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+li{
+    font-size: 25px;
+    color: white;
+}
+li:hover{
+    color: black;
+}

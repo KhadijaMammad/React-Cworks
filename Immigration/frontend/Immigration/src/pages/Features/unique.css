@@ -1,0 +1,36 @@
+.unique-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.unique-page{
+    margin-top: 4%;
+}
+.expert{
+    display: flex;
+    gap: 1rem;
+    font-size: 17px;
+    align-items: center;
+    line-height: 4rem;
+    color: rgb(34, 34, 34);
+}
+.expert:hover{
+    color: red;
+}
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; 
+}
+.features-card{
+    width: 350px;
+    padding: 15px;
+    border:none;
+}
+.text{
+    font-size: 15px;
+    opacity: 70%;
+}

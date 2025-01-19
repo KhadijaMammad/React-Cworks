@@ -21,8 +21,6 @@ function Effect() {
     );
     setStore((item) => item.filter((product) => product.id !== id));
   }
- 
-
   return (
     <div>
       <p className="load">{isLoading ? <p>Loading...</p> : null}</p>

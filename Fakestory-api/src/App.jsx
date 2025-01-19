@@ -7,6 +7,8 @@ import NotPage from './assets/Pages/NotPage/NotPage';
 import Product from './assets/Pages/Products/Product';
 import Add from './assets/Pages/Add-product/Add';
 import Details from './assets/Pages/Details/Details';
+import Basket from './assets/Pages/Basket/Basket';
+import WishlistPg from './assets/Pages/Wishlist/WishlistPg';
 
 function App() {
   
@@ -20,6 +22,8 @@ function App() {
           <Route path='/product' element = {<Product/>} />
           <Route path='/add' element = {<Add/>} />
           <Route path='/details' element = {<Details/>} />
+          <Route path='/basket' element = {<Basket/>}/>
+          <Route path='/wishlistPg' element = {<WishlistPg/>}/>
         </Route>
         <Route path='*' element={<NotPage/>} />
       </Routes>

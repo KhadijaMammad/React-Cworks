@@ -41,6 +41,7 @@ export default function Product() {
                                     <button className='btn btn-danger'>Delete</button>
                                     <button className='btn btn-primary'><Link to="/details">Details</Link></button>
                                     <button className='btn btn-success'><Link to="/add">Edit</Link></button>
+                                    <button className='btn btn-danger'><i class="fa-regular fa-heart"></i></button>
                                 </tr>
                             ))}
                         </tbody>
